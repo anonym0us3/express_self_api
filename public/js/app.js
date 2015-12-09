@@ -13,8 +13,8 @@ $(document).ready(function(){
 				"<p>github " + data.profileInfo[0].githubLink + "</p><br\>" +
 				"<p>Photo: " + data.profileInfo[0].githubProfilePic + "</p><br\>" +
 				"<p>City: " + data.profileInfo[0].city + "</p><br\>" +
-				"<p>Mom: <a href = " + data.profileInfo[0].family[0].photo + ">" + data.profileInfo[0].family[0].dname + "</a>" + "</p><br\>" + 
-				"<p>Dad: <a href = " + data.profileInfo[0].family[1].photo + ">" + data.profileInfo[0].family[1].mname + "</a>");
+				"<p>Dad: <a href = " + data.profileInfo[0].family[0].photo + ">" + data.profileInfo[0].family[0].dname + "</a>" + "</p><br\>" + 
+				"<p>Mom: <a href = " + data.profileInfo[0].family[1].photo + ">" + data.profileInfo[0].family[1].mname + "</a>");
 		},
 		error: function (data) {
 			console.log("stop the presses");
